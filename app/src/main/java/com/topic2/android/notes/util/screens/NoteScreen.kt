@@ -137,7 +137,8 @@ private fun NotesListPreview(){
         notes = listOf(
             NoteModel(1, "Заголовок 1", "Описание 1", null),
             NoteModel(1, "Заголовок 2", "Описание 2", false),
-            NoteModel(1, "Заголовок 3", "Описание 3", true)
+            NoteModel(1, "Заголовок 3", "Описание 3", true),
+                    NoteModel(1, "Заголовок 4", "Описание 4", true)
         ),
         onNoteCheckedChange = {}, onNoteClick = {}
     )
