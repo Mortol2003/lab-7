@@ -72,7 +72,7 @@ private fun NotePreview(){
         note = NoteModel(
             1,
             "Заметка 1",
-            "Содеражание 1",
+            "Содеражание ",
             null
         )
     )
