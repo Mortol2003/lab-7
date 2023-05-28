@@ -22,20 +22,7 @@ fun NoteColor(
     size: Dp,
     border: Dp
 ){
-    Box(
-        modifier = Modifier
-            .size(40.dp)
-            .clip(CircleShape)
-            .background(color)
-            .border(
-                BorderStroke(
-                    border, SolidColor(Color.Black)
-                ),
-                CircleShape
-            )
 
-
-    )
 }
 
 @Preview
